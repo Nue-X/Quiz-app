@@ -137,12 +137,12 @@ function scoreSheet(){
     check.innerHTML = ""
 
     if (score > 4){
-        submit.innerHTML = "Good Fucking Job!"
+        submit.innerHTML = "Good Job!"
     } else if (score > 3){
         submit.innerHTML = "Great work"
     } else if (score >= 2){
         submit.innerHTML = "Try Harder"
     } else if (score >= 0){
-        submit.innerHTML = "You dumb b!tch!"
+        submit.innerHTML = "You can do better"
     }
 }
